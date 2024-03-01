@@ -20,17 +20,18 @@ const Contact = () => {
     setForm({ ...form, [name]: value })
   }
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
+    
     setLoading(true)
-    emailjs.send("service_0dc7e89", "template_l8oqhvo",
+    emailjs.send("service_66zf0te", "template_dlz4xpo",
       {
         from_name: form.name,
-        to_name: 'Efuwape Ayomide',
+        to_name: 'Idowu Daniel',
         from_email: form.email,
-        to_email: 'efuwapeayomide51@gmail.com',
+        to_email: 'danielidowu414@gmail.com',
         message: form.message
       },
-      "PmT9_tCwfHCOiGvz5"
+      "cpryipJS8eq1YECJS"
     )
       .then(() => {
         setLoading(false)

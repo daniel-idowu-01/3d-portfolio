@@ -67,7 +67,7 @@ const App = () => {
         >
           <Works />
         </motion.section>
-        <motion.section
+        {/* <motion.section
           variants={staggerContainer()}
           initial="hidden"
           whileInView="show"
@@ -75,7 +75,7 @@ const App = () => {
           className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
         >
           <Feedbacks />
-        </motion.section>
+        </motion.section> */}
 
         <div className="z-0 relative">
           <motion.section
