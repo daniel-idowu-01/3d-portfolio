@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, } from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, starbucks, tesla, shopify, threejs, aidoc, invflow, ireadlib } from "../assets";
 
 export const navLinks = [
   {
@@ -167,9 +167,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "InventoryFlow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An inventory management system designed to streamline inventory tracking and management processes.",
     tags: [
       {
         name: "react",
@@ -180,54 +180,77 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flowbite",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: invflow,
+    github_link: "https://github.com/daniel-idowu-01/inventoryflow",
+    live_link: "https://inventoryflow.netlify.app/"
   },
   {
-    name: "Job IT",
+    name: "AI-Doc",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An AI-powered symptom and diagnosis guidance web application that helps users manage their health.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "machinelearning",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "python",
         color: "pink-text-gradient",
       },
+      {
+        name: "expressjs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: aidoc,
+    github_link: "https://github.com/daniel-idowu-01/AI-Doc",
+    live_link: "https://ai-doc.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "iReadLib",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fullstack e-library for users to get recommendations on books and purchase favorite books.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "expressjs",
         color: "pink-text-gradient",
       },
+      {
+        name: "swiperjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flowbite",
+        color: "green-text-gradient",
+      }
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ireadlib,
+    github_link: "https://github.com/daniel-idowu-01/ireadlib",
+    live_link: "https://ireadlib.netlify.app/"
   },
 ];
 

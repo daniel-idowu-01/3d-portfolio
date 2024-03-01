@@ -30,7 +30,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import aidoc from "./aidoc.png";
+import invflow from "./invflow.png";
+import ireadlib from "./ireadlib.png";
+
 export {
+  aidoc,
+  invflow,
+  ireadlib,
   logo,
   backend,
   creator,
