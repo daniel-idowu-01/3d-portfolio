@@ -252,6 +252,66 @@ const projects = [
     github_link: "https://github.com/daniel-idowu-01/ireadlib",
     live_link: "https://ireadlib.netlify.app/"
   },
+  /* {
+    name: "EliteTv",
+    description:
+      "A fullstack e-library for users to get recommendations on books and purchase favorite books.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "swiperjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flowbite",
+        color: "green-text-gradient",
+      }
+    ],
+    image: ireadlib,
+    github_link: "https://github.com/daniel-idowu-01/ireadlib",
+    live_link: "https://ireadlib.netlify.app/"
+  },
+  {
+    name: "ShopBliss",
+    description:
+      "A fullstack e-library for users to get recommendations on books and purchase favorite books.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "swiperjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flowbite",
+        color: "green-text-gradient",
+      }
+    ],
+    image: ireadlib,
+    github_link: "https://github.com/daniel-idowu-01/ireadlib",
+    live_link: "https://ireadlib.netlify.app/"
+  }, */
 ];
 
 export { services, technologies, experiences, testimonials, projects };
